@@ -9,27 +9,27 @@ package boletin4_2;
  *
  * @author socamporomani
  */
-   public class Satelite{
- 
-     private double meridiano ;
-     private double paralelo;
-     private double distanciaTerra ;
+public class Satelite {
 
-     
-  public Satelite ( ) {
+    private double meridiano;
+    private double paralelo;
+    private double distanciaTerra;
 
-  meridiano = paralelo = distanciaTerra = 0 ;
+    public Satelite() {
+
+        meridiano = paralelo = distanciaTerra = 0;
+    }
+
+    public Satelite(double m, double p, double d) {
+
+        meridiano = m;
+        paralelo = p;
+        distanciaTerra = d;
+
+    }
+
+    public void verPosicion() {
+
+        System.out.println("o satelite atopase  no paralelo " + paralelo + "meridiano " + meridiano + " a unha distancia da terra " + " distanciaTerra");
+    }
 }
-public Satelite ( double m, double p , double d )  {
-
-meridiano = m ;
-paralelo = p;
-distanciaTerra = d ;
-
-}
-public void verPosicion ( ) {
-
-System.out.println("o satelite atopase  no paralelo "+ paralelo + "meridiano " + meridiano +" a unha distancia da terra " + " distanciaTerra");
-  }
-}
-
