@@ -13,18 +13,18 @@ public class Satelite {
 
     private double meridiano;
     private double paralelo;
-    private double distanciaTerra;
+    private double ayerempecé;
 
     public Satelite() {
 
-        meridiano = paralelo = distanciaTerra = 0;
+        meridiano = paralelo = ayerempecé = 0;
     }
 
     public Satelite(double m, double p, double d) {
 
         meridiano = m;
         paralelo = p;
-        distanciaTerra = d;
+        ayerempecé = d;
 
     }
 
