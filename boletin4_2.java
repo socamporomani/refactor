@@ -10,10 +10,10 @@ package boletin4_2;
  * @author socamporomani
  */
 public class boletin4_2 {
-    
-        public static void main(String[] args) {
-        Satelite comprobar= new Satelite();
+
+    public static void main(String[] args) {
+        Satelite comprobar = new Satelite();
         comprobar.verPosicion();
-   
-        }
+
+    }
 }
